@@ -1,0 +1,58 @@
+.jobs {
+    background-image: url("../img/marble.jpg");
+}
+
+@media (min-width: 992px) {
+    .jobs {
+        background-attachment: fixed;
+        background-position: center bottom 10px;
+    }
+}
+
+.jobs h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #212121;
+}
+
+.jobs .card .card-title {
+    font-family: "Playfair Display", serif;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
+    -webkit-text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
+}
+
+.jobs .card .card-content p {
+    margin-bottom: 1rem;
+}
+
+.jobs .card .card-content p:last-child {
+    margin-bottom: 0rem;
+}
+
+.jobs .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #bc9b5d;
+}
+
+.jobs .card .card-image .overlay {
+    position: absolute;
+    background: rgba(34, 34, 34, 0.45);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.jobs .card .card-content ul:not(.browser-default) {
+    padding-left: 1.25rem;
+}
+
+.jobs .card .card-content ul:not(.browser-default) > li {
+    list-style-type: disc;
+    margin-top: .75rem;
+}

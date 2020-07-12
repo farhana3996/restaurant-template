@@ -1,0 +1,60 @@
+.order h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.order .tabs {
+    background-color: #212121;
+    border-radius: 4rem;
+    border: 2px solid #BC9B5D;
+}
+
+.order .tabs .tab {
+    text-transform: capitalize;
+}
+
+.order .tabs .tab a {
+    color: #ffffff;
+}
+
+.order .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #BC9B5D;
+}
+
+.order .tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: transparent;
+}
+
+.order .tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(188, 155, 93, .1);
+}
+
+.order .menu h2 {
+    color: #212121;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #212121;
+    text-align: left;
+}
+
+.order .menu .col {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.order .menu h5 {
+    margin-top: 0rem;
+}
+
+.order .menu p {
+    color: #212121
+}
+
+.order .menu [type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid #BC9B5D;
+    border-bottom: 2px solid #BC9B5D;
+}

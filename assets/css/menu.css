@@ -1,0 +1,25 @@
+.menu h2:first-child {
+    margin-top: 3rem;
+}
+
+.menu h2 {
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #BC9B5D;
+    text-align: center;
+}
+
+.menu .item h5 i {
+    color: #BC9B5D;
+}
+
+
+.menu .item .price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .menu .item {
+        padding: 0 1.25rem
+    }
+}

@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  color: #BC9B5D;
+}
+
+
+h1, h2 {
+  font-size: 2.5rem;
+}
+
+nav ul a {
+  color: #212121;
+}
+
+
+nav ul a.active {
+  background-color: rgba(188, 155, 93, 1);
+  color: #fff;
+}
+
+nav .brand-logo {
+  color: #BC9B5D;
+}
+
+nav .brand-logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  nav .brand-logo {
+    font-size: 2.1rem;
+  }
+}
+
+h5, h6 {
+  color:#212121;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #111;
+}
+
+.gold {
+  background-color: #BC9B5D;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+}
+
+.contact .mapouter {
+  margin-top: 2.75rem;
+  position: relative;
+  text-align: right;
+  height: 100%;
+  max-width: 100%;
+}
+
+.contact .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  max-width: 100%;
+}
+
+.btn-large {
+  width: 100%;
+}
+
+.btn-large.gold {
+  background-color: #BC9B5D !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #BC9B5D;
+    -webkit-box-shadow: 0 1px 0 0 #BC9B5D;
+    box-shadow: 0 1px 0 0 #BC9B5D;
+}
+
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #BC9B5D;
+}

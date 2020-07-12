@@ -1,0 +1,44 @@
+.hero-container {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: top center;
+    background-image: url("../img/background1.jpg");
+}
+
+.about .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.about .section p.small {
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.about .section h2 {
+    margin-top: 0rem;
+    font-size: 2.5rem;
+}
+
+.about .section img {
+    max-width: 100%;
+}
+
+.about .section img:first-child {
+    margin-bottom: 1rem;
+}
+
+.about .section img:last-child {
+    margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+    .hero-container {
+        background-attachment: fixed;
+        height: 600px;
+        background-position: center bottom 10px;
+    }
+}

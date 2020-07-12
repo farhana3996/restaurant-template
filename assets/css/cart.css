@@ -1,0 +1,18 @@
+.cart .input-field {
+    position: relative;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.cart .summary .row {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    color: #fff !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cart .summary .row h5 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}

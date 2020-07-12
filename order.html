@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Urban Daybreak</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="assets/css/menu.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="assets/css/order.css" type="text/css" rel="stylesheet" media="screen" />
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" size="32x32" />
+
+</head>
+
+<body class="order">
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Urban Daybreak</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="order.html" class="waves-effect waves-light btn grey darken-4">Order Now</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="order.html" class="waves-effect waves-light btn grey darken-4">Order Now</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <h1>Order Now</h1>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col m3"><a class="active" href="#favourites">Our Favourites</a></li>
+                        <li class="tab col m3"><a href="#mains">Our Mains</a></li>
+                        <li class="tab col m3"><a href="#desserts">Desserts</a></li>
+                        <li class="tab col m3"><a href="#coffee">Handcrafted Coffee</a></li>
+                    </ul>
+                </div>
+
+                <div id="favourites" class="col s12">
+                    <div class="section menu">
+                        <h2><span>Our Favourites</span></h2>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col s12 l4 item">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>
+                                            <h5>Toasted Artisan Bread</h5>
+                                            <p class="light">crunchy artisan sourdough toast with two choices of
+                                                homemade orange
+                                                marmalade /
+                                                bacon jam /
+                                                peanut butter</p>
+                                            <p class="price">RM13.5</p>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="col s12 l4 item">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>
+                                            <h5>Apple &amp; Banana Bircher</h5>
+                                            <p class="light">granny smith apples, caramelized bananas, toasted almonds,
+                                                sultanas,
+                                                organic seeds,
+                                                vanilla
+                                                greek yoghurt</p>
+                                            <p class="price">RM22.0</p>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="col s12 l4 item">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>
+                                            <h5>Avocado Smash</h5>
+                                            <p class="light">sourdough toast, homemade guacamole, poached egg, feta cheese and
+                                                roasted cherry
+                                                tomato</p>
+                                            <p class="price">RM24.5</p>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 l4 item">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>
+                                            <h5>Super-Goodness Bowl</h5>
+                                            <p class="light">assorted berries, red dragon fruit, banana, mango, strawberry, mint
+                                                leaf, chia
+                                                seed, chopped
+                                                mixed nuts</p>
+                                            <p class="price">RM24.0</p>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="col s12 l4 item">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>
+                                            <h5>Cold Roast Salad</h5>
+                                            <p class="light">grilled halloumi, pumpkin, baby spinach, capsicum, baby corn,
+                                                potatoes,
+                                                cherry
+                                                tomatoes</p>
+                                            <p class="price">RM26.0</p>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="mains" class="col s12">
+                    <div class="section menu">
+                        <h2><span>Our Mains</span></h2>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>The Hungry Burger</h5>
+                                        <p class="light">quarter pounder beef burger, cheddar cheese, crispy bacon, brioche
+                                            burger bun,
+                                            fries</p>
+                                        <p class="price">RM28.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Steak Sandwich</h5>
+                                        <p class="light">ribeye, tomato and chilli relish, grain mustard, fresh spinach, swiss
+                                            cheese</p>
+                                        <p class="price">RM33.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Crackling on Salmon!</h5>
+                                        <p class="light">crispy pan seared salmon fillet, asparagus, vegetable slaw, poached egg
+                                        </p>
+                                        <p class="price">RM32.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Chorizo Pasta</h5>
+                                        <p class="light">chorizo, garlic, roasted capsicum</p>
+                                        <p class="price">RM28.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Creamless Carbonara</h5>
+                                        <p class="light">pancetta, parmigiano reggiano</p>
+                                        <p class="price">RM33.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Espresso Beef Ragout</h5>
+                                        <p class="light">ribeye, aged permesan, pickled onions</p>
+                                        <p class="price">RM32.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="desserts" class="col s12">
+                    <div class="section menu">
+                        <h2><span>Desserts</span></h2>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Fried Chicken Waffles</h5>
+                                        <p class="light">crispy chicken karaage, sunny side up, baked beans, maple mustard</p>
+                                        <p class="price">RM26.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Waffles at its Best</h5>
+                                        <p class="light">sunny side up, spicy pork stew, baby spinach and red onion salad</p>
+                                        <p class="price">RM24.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Signature French Toast</h5>
+                                        <p class="light">brioche loaf, homemade salted peanut butter jam, crispy bacon, maple
+                                            drizzle</p>
+                                        <p class="price">RM23.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Cinnamon French Toast</h5>
+                                        <p class="light">vanilla mascarpone, summer berries, maple drizzle</p>
+                                        <p class="price">RM22.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Cream Cheese Hot Cakes</h5>
+                                        <p class="light">homemade lime &amp; basil ice cream, pistachio bits, rasberry puree</p>
+                                        <p class="price">RM22.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Bread Butter Pudding</h5>
+                                        <p class="light">homemade rasberry ice-cream, vanilla anglaise, raisin</p>
+                                        <p class="price">RM20.5</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="coffee" class="col s12">
+                    <div class="section menu">
+                        <h2><span>Handcrafted Coffee</span></h2>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Best Drink Ever</h5>
+                                        <p class="light">classic americano with our signature creamy vanilla</p>
+                                        <p class="price">RM13.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Honey Latte</h5>
+                                        <p class="light">espresso, creamy vanilla, real honey &amp; steamed milk</p>
+                                        <p class="price">RM13.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Mint Mocha Latte</h5>
+                                        <p class="light">our signature mocha with creme dementhe</p>
+                                        <p class="price">RM14.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Hazelnut Divinity</h5>
+                                        <p class="light">our dark chocolate mocha with an added touch of hazelnut</p>
+                                        <p class="price">RM15.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Creme De Cacao</h5>
+                                        <p class="light">espresso, mexican chocolate and steamed milk topped with whipped cream
+                                        </p>
+                                        <p class="price">RM15.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Mint Infused Iced Coffee</h5>
+                                        <p class="light">espresso, muddled mint, raw natural cane saugar, heavy cream &amp; ice
+                                        </p>
+                                        <p class="price">RM13.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Iced Coconut Latte</h5>
+                                        <p class="light">espresso, steamed milk, coconut water</p>
+                                        <p class="price">RM13.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Caramel Mocha</h5>
+                                        <p class="light">our mocha latte with creamy caramel</p>
+                                        <p class="price">RM14.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col s12 l4 item">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>
+                                        <h5>Indian Chai Latte Float</h5>
+                                        <p class="light">spiced tea, steamed milk with a twist</p>
+                                        <p class="price">RM215.0</p>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col s12">
+                    <a href="cart.html" class="waves-effect waves-light btn-large gold">View Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grey darken-4">
+        <div class="container contact ">
+            <div class="section">
+                <div class="row">
+
+                    <div class="col s12 m6">
+                        <h2>Address</h2>
+                        <p class="grey-text">338, Lebuh Pantai,<br />Penang</p>
+                        <h2>Business Hours</h2>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Monday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Tuesday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                Closed
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Wednesday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Thursday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Friday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Saturday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l4 m6 s6 grey-text">
+                                Sunday
+                            </div>
+                            <div class="col l4 m6 s6 grey-text">
+                                7.30am - 5.30pm
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=urban%20daybreak%20penang&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer gold">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Urban Daybreak</h5>
+                    <p class="grey-text text-lighten-4">Urban Daybreak is a trendy artisan cafe located in the heart of
+                        Georgetown, Penang. Tantalise your tastebuds with authentic Australian breakfast and brunch with
+                        a twist</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Cafe</h5>
+                    <ul>
+                        <li><a class="white-text" href="index.html">Home</a></li>
+                        <li><a class="white-text" href="#">Menu</a></li>
+                        <li><a class="white-text" href="#">Career</a></li>
+                        <li><a class="white-text" href="#">Order Now</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="index.html">Home</a></li>
+                        <li><a class="white-text" href="menu.html">Menu</a></li>
+                        <li><a class="white-text" href="career.html">Career</a></li>
+                        <li><a class="white-text" href="order.html">Order Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright gold">
+            <div class="container">
+                &copy; Urban Daybreak
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
+</body>
+
+</html>

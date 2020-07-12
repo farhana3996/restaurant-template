@@ -1,0 +1,19 @@
+.success .material-icons {
+    font-size: 8rem;
+}
+
+.success {
+    background-image: url("../img/marble.jpg");
+}
+
+.success h4 {
+    color: #212121;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+    .success {
+        background-attachment: fixed;
+        background-position: center bottom 10px;
+    }
+}
